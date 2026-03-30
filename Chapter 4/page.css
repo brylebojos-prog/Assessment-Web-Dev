@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* header */
+header {
+    background: #17072b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* layout */
+main {
+    display: flex;
+}
+
+/* left */
+section {
+    width: 70%;
+    padding: 10px;
+}
+
+/* right */
+aside {
+    width: 30%;
+    background: #172d67;
+    color: white;
+    padding: 10px;
+}
+
+/* images */
+aside img {
+    width: 45%;
+    margin: 5px;
+}
+
+/* footer */
+footer {
+    background: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

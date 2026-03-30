@@ -1,0 +1,42 @@
+body {
+    background: #eee;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+}
+
+.container div {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+}
+
+#A {
+    border: 5px solid purple;
+    box-shadow: 10px 10px 15px red;
+}
+
+#B {
+    border: 5px solid limegreen;
+    box-shadow: -10px 0 15px black;
+}
+
+#C {
+    border-radius: 30px;
+    border: 10px solid green;
+    box-shadow: 
+        0 0 0 10px red,
+        0 0 0 20px blue,
+        0 0 0 30px orange;
+}
+
+#D {
+    border: 5px solid brown;
+}

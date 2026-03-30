@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Soundboard</title>
+
+<link rel="stylesheet" href="video.css">
+</head>
+
+<body>
+
+<h1>Soundboard</h1>
+
+<div class="container">
+
+    <!-- TEXT TO SPEECH -->
+    <div class="tts">
+        <textarea id="text"></textarea><br>
+        <button onclick="speakText()">Say it</button>
+    </div>
+
+    <!-- SOUNDS -->
+    <div class="soundboard">
+        <button onclick="playSound('audio1')">1 <span id="audio1-length"></span></button>
+        <button onclick="playSound('audio2')">2 <span id="audio2-length"></span></button>
+        <button onclick="playSound('audio3')">3 <span id="audio3-length"></span></button>
+        <button onclick="playSound('audio4')">4 <span id="audio4-length"></span></button>
+        <button onclick="playSound('audio5')">5 <span id="audio5-length"></span></button>
+        <button onclick="playSound('audio6')">6 <span id="audio6-length"></span></button>
+        <button onclick="playSound('audio7')">7 <span id="audio7-length"></span></button>
+        <button onclick="playSound('audio8')">8 <span id="audio8-length"></span></button>
+        <button onclick="playSound('audio9')">9 <span id="audio9-length"></span></button>
+    </div>
+
+</div>
+
+<!-- AUDIO -->
+<audio id="audio1" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_115b9b61c7.mp3"></audio>
+<audio id="audio2" src="https://cdn.pixabay.com/download/audio/2022/10/16/audio_12b8c5c6b4.mp3"></audio>
+<audio id="audio3" src="https://cdn.pixabay.com/download/audio/2021/08/04/audio_c8c8a73467.mp3"></audio>
+<audio id="audio4" src="https://cdn.pixabay.com/download/audio/2022/03/10/audio_3b5a8a2c0d.mp3"></audio>
+<audio id="audio5" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_115b9b61c7.mp3"></audio>
+<audio id="audio6" src="https://cdn.pixabay.com/download/audio/2022/03/26/audio_4c7b6b5b3d.mp3"></audio>
+<audio id="audio7" src="https://cdn.pixabay.com/download/audio/2021/09/01/audio_9f8c1c2c8e.mp3"></audio>
+<audio id="audio8" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_115b9b61c7.mp3"></audio>
+<audio id="audio9" src="https://cdn.pixabay.com/download/audio/2022/03/10/audio_3b5a8a2c0d.mp3"></audio>
+
+<script src="video.js"></script>
+
+</body>
+</html>
